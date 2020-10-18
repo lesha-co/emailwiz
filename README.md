@@ -51,7 +51,7 @@ actually works perfectly.
    **CNAME record** for your `mail.` subdomain.
 4. **A Reverse DNS entry for your site.** Go to your VPS settings and add an
    entry for your IPV4 Reverse DNS that goes from your IP address to
-   `mail.<yourdomain.com>`. If you would like IPV6, you can do the same for
+   `<yourdomain.com>` (not `mail.<yourdomain.com>`). If you would like IPV6, you can do the same for
    that. This has been tested on Vultr, and all decent VPS hosts will have
    a section on their instance settings page to add a reverse DNS PTR entry.
    You can use the 'Test Email Server' or ':smtp' tool on
